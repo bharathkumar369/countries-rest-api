@@ -1,0 +1,198 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* --------------navbar--------------- */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px gray;
+}
+.nav__h1{
+    text-decoration: none;
+    color: black;
+    margin-left: 3rem;
+}
+.nav__h4{
+    margin-right: 3rem;
+    cursor:pointer;
+}
+.nav__toggle{
+    height: 3rem;
+    width: 3rem;
+   
+}
+.darkmode{
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+.lightmode{
+    background-color: rgb(255, 255, 255);
+    color: rgb(18, 18, 18);
+}
+
+/* ----------------------------------- */
+
+/* ---------flag-search------------------- */
+.flag--search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flag--search__region p{
+    margin: 0;
+   
+    margin-right: 2rem;
+    padding: .5rem 1rem .5rem .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+.flag--search__region{
+    position: relative;
+}
+@media(max-width:600px){
+    .flag--search__region{
+        margin-right: 0;
+    }
+    .flag--search__region p{
+        font-size:.8rem
+    }
+}
+.flag--search__input{
+    margin: 2rem 0rem;
+    margin-left: 3rem;
+    padding: .5rem 10rem .5rem .4rem; 
+    border-radius: .5rem;
+}
+@media(max-width:600px){
+    .flag--search__input{
+        padding:.5rem 1rem .5rem .4rem
+    }
+}
+.flag--search__toggle{
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.flag--search__filter{
+    position: absolute;
+    padding-left:.3rem;
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(63, 63, 63);
+}
+.flag--search__link{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: .3rem 0rem;
+    font-size: 1.3rem;
+}
+.displayNone{
+    display: none;
+}
+/* ----------------------------------- */
+.flag-container{
+    /* width: 80%;
+    margin: 0 auto; */
+    display: inline-block;
+    padding: 0rem 3rem;
+    align-items: center;
+
+}
+.flag-box{
+    height: 30rem;
+    width: 20rem;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom:5rem;
+    box-shadow: 5px 8px 5px gray;
+    border-radius: 1rem;
+}
+.flagImage{
+    width: 100%;
+
+}
+.flag-text{
+    padding-left: 1rem;
+}
+.flags{
+    width:30rem;
+    height:13rem;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+/* ---------flag-details------------------- */
+.flag--details{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.flag--details__flags{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+@media(max-width:600px){
+    .flag--details__flags{
+        width: 20rem;
+    }
+}
+.flag--details__h5{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.flag--details__text{
+    font-weight: 300;
+    font-size: 1rem;
+}
+.back-button{
+    display: block;
+    margin-bottom: 1rem;
+}
+.flag--details__button{
+    padding: .5rem 1rem;
+    border: .5px solid black;
+    border-radius: 1rem;
+    font-size: .7rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+.flag--details__button:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 2px yellow;
+    transition: .7s;
+}
+/* ------------------------------------- */
+/* ----------filterContinents---------- */
+.filterCotinents--container{
+    display: inline-block;
+    margin: 1rem ;
+    height: 20rem;
+    width: 20rem;
+    box-shadow: 3px 3px 3px gray;
+
+}
+.filterContinents__image{
+    height: 10rem;
+    width: 20rem;
+}
