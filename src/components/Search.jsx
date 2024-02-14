@@ -63,7 +63,7 @@ const Search = ({ modeChange }) => {
         !e.target.closest(".flag--search__filter") &&
         !e.target.classList.contains("flag--search__toggle")
       ) {
-        setToggle(false);
+        setToggle(true);
       }
     };
 
