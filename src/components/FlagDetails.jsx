@@ -34,7 +34,7 @@ const FlagDetails = ({ modeChange }) => {
       )}
       {details && (
         <>
-          <h1>{details.name.common.slice(0,5)}</h1>
+          <h1>{details.name.common}</h1>
           <h5 className="flag--details__h5">
             Population:
             <span className="flag--details__text">{details.population}</span>
