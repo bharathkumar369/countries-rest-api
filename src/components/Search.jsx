@@ -8,7 +8,7 @@ import toggleUpDark from "../images/toggleUp-dark.png";
 import toggleUpLight from "../images/toggleUp-white.png";
 
 const Search = ({ modeChange }) => {
-  const [toggle, setToggle] = React.useState(true);
+  const [toggle, setToggle] = React.useState(false);
 
   const toggleChange = () => {
     setToggle((prevToggle) => !prevToggle);
