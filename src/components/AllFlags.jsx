@@ -21,7 +21,7 @@ const AllFlags = (props) => {
             props.modeChange ? "darkmode" : "lightmode"
           }`}
         >
-          <h1>{props.name.slice(0,19)}</h1>
+          <h1>{props.name.slice(0,12)}</h1>
 
           <h5>
             Population:
